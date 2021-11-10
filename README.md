@@ -1,15 +1,15 @@
 # [**PlatziFood**]()
-This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Tailwind Css** on the **Platzi** platform. The goal wit this course is learn how to use Tailwind in the best way possible (this includes good practices), likewise to apply the knowledge in a real-life project.
+This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Tailwind Css** on the **Platzi** platform. The goal with this course is learn how to use Tailwind in the best way possible (this includes good practices), likewise to apply the knowledge in a real-life project.
 
 > **Note:** I'll try to add my notes here in order to get a better experience while learning, furthermore, this way I'll be able to remember the things seen in this course for a longer time.
 
-![](https://static.platzi.com/media/courses/Opengraph-tailwind-css_2.png)
-
 ## **Table of contents**
-- [**Installation and workflow**](#installation-and-workflow)
-- [**Personalization and configuration**](#personalization-and-configuration) 
-- [**Responsive Design, Mobile First and Utility First**](#responsive-design-mobile-first-and-utility-first)
-- [**Resources**](#resources)
+- [Installation and workflow](#installation-and-workflow)
+- [Personalization and configuration](#personalization-and-configuration) 
+- [Responsive Design, Mobile First and Utility First](#responsive-design-mobile-first-and-utility-first)
+- [Resources](#resources)
+
+![](https://static.platzi.com/media/courses/Opengraph-tailwind-css_2.png)
 
 ### **Installation and workflow**
 * First, a few things you'll need to install in your computer to get up-and-running with the project are the **tailwind**, **autoprefixer**, and **postcss-cli** dependencies by running the **npm install** command (this will install the dependencies locally in the project).
@@ -18,7 +18,7 @@ This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Ta
     npm install tailwind autoprefixer postcss-cli
 ```
 
-> **Important:** This will allow you to compile the code with PostCSS thanks to the **CLI** version that'll be installed.
+> **Important:** This will allow you to compile the code with PostCss thanks to the **CLI** version that'll be installed.
 
 * Then, you must initialize the **npm** project to generate the package.json, here you can use the **npm init** command or **npm init -y** if you'd like to skip the configuration related to the information of the project.
 
@@ -66,7 +66,7 @@ If you'd like to personalize your Tailwind stylesheet, then, you have to make tw
 
 > **Note:** anyways, the recommendation is to go ahead and read the [documentation](https://tailwindcss.com/docs/theme) for more details because the mentioned above it's just an attempt of a tiny summary in order of having a little concern of the possibilities of personalization.
 
-> **Note:** you can also generate the full version of the default configuration by using the **npx tailwindcss init tailwind.config.full.js --full** (it's possible to indicate the name of the file just by writing it after the **init** flag, just remember to reference it on the PostCSS config file, for more information check the documentation mentioned before).
+> **Note:** you can also generate the full version of the default configuration by using the **npx tailwindcss init tailwind.config.full.js --full** (it's possible to indicate the name of the file just by writing it after the **init** flag, just remember to reference it on the PostCss config file, for more information check the documentation mentioned before).
 
 ```
     npx tailwindcss init tailwind.config.full.js --full
