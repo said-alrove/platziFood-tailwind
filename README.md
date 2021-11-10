@@ -75,11 +75,13 @@ If you'd like to personalize your Tailwind stylesheet, then, you have to make tw
 ### **Responsive Design, Mobile First and Utility First**
 Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile First** and **Utility First**, therefore stuff like breakpoints are available with a certain facility in order to give to developers a better experience while coding. Some breakpoints available as default on Tailwind are: 
 
-* **default:** more than 0px.
-* **sm:** more than 640px.
-* **md:** more than 768px.
-* **lg:** more than 1024px.
-* **xl:** more than 1280px.
+| Breakpoint  | Viewport Width |
+| ----------- | -------------- |
+| **default** | < 0px          |
+| **sm**      | < 640px        |
+| **md**      | < 768px        |
+| **lg**      | < 1024px       |
+| **xl**      | < 1280px       |
 
 ## Resources 📚
 - [Curso de Tailwind CSS](https://platzi.com/cursos/tailwind-css/)
