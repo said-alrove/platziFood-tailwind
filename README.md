@@ -1,5 +1,5 @@
 # [**PlatziFood**]()
-This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Tailwind Css** on the Platzi platform. The goal wit this course is learn how to use Tailwind in the best way possible (this includes good practices), likewise to apply the knowledge in a real-life project.
+This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Tailwind Css** on the **Platzi** platform. The goal wit this course is learn how to use Tailwind in the best way possible (this includes good practices), likewise to apply the knowledge in a real-life project.
 
 > **Note:** I'll try to add my notes here in order to get a better experience while learning, furthermore, this way I'll be able to remember the things seen in this course for a longer time.
 
