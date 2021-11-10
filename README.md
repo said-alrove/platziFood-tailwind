@@ -1,13 +1,14 @@
-# **PlatziFood**
+# [**PlatziFood**]()
 This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Tailwind Css** on the Platzi platform. The goal wit this course is learn how to use Tailwind in the best way possible (this includes good practices), likewise to apply the knowledge in a real-life project.
 
 > **Note:** I'll try to add my notes here in order to get a better experience while learning, furthermore, this way I'll be able to remember the things seen in this course for a longer time.
 
-![](https://mdstrm.com/thumbs/512e13acaca1ebcd2f000279/thumb_5e4601666e10e4079df21a31_5e4601666e10e4079df21a3d_19s.jpg)
+![](https://static.platzi.com/media/courses/Opengraph-tailwind-css_2.png)
 
 ## **Table of contents**
 - [**Installation and workflow**](#installation-and-workflow)
 - [**Personalization and configuration**](#personalization-and-configuration) 
+- [**Responsive Design, Mobile First and Utility First**](#responsive-design-mobile-first-and-utility-first)
 - [**Resources**](#resources)
 
 ### **Installation and workflow**
@@ -56,7 +57,7 @@ This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Ta
 
 - Next you'll have to run the script by using the **npm run build** command. This will create you the whole Tailwind stylesheet for your project.
 
-### Personalization and configuration
+### **Personalization and configuration**
 If you'd like to personalize your Tailwind stylesheet, then, you have to make tweaks to the **module.exports** array on the **tailwind.config.js** file, I could write an extense guide about how to use this part but tbh is better redacted on the Tailwind's official documentation. Anyways I'll explain a few basic and important concepts.
 
 * If you'd like to overwrite the defualt configuration, then you have to add the keys for the main agroupation of values such as **colors** (here you can change the default palette or add yours), **screens** (for media-queries breakpoints), and **spacing** (for everything related to sizes). Or, otherwise, you can edit the values from the called **corePlugins** (the agroupation of utilities that are related because of their properties, such as **borderRadius**). Or both.
@@ -71,14 +72,14 @@ If you'd like to personalize your Tailwind stylesheet, then, you have to make tw
     npx tailwindcss init tailwind.config.full.js --full
 ```
 
-### Responsive Design, Mobile First and Utility First
+### **Responsive Design, Mobile First and Utility First**
 Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile First** and **Utility First**, therefore stuff like breakpoints are available with a certain facility in order to give to developers a better experience while coding. Some breakpoints available as default on Tailwind are: 
 
-* **default:** < 0px.
-* **sm:** < 640px.
-* **md:** < 768px.
-* **lg:** < 1024px.
-* **xl:** < 1280px.
+* **default:** more than 0px.
+* **sm:** more than 640px.
+* **md:** more than 768px.
+* **lg:** more than 1024px.
+* **xl:** more than 1280px.
 
 ## Resources 📚
 - [Curso de Tailwind CSS](https://platzi.com/cursos/tailwind-css/)
