@@ -1,0 +1,25 @@
+{
+  "name": "platzifood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles/app.css -o public/styles/app.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/said-alrove/platziFood-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/said-alrove/platziFood-tailwind/issues"
+  },
+  "homepage": "https://github.com/said-alrove/platziFood-tailwind#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
