@@ -4,7 +4,8 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "postcss styles/app.css -o public/styles/app.css -m"
+    "build": "postcss styles/app.css --config postcss.config.js -o public/styles/app.css",
+    "dev": "live-server public postcss styles/app.css --config postcss.config.js -o public/styles/app.css -w" 
   },
   "repository": {
     "type": "git",
