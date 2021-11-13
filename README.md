@@ -83,7 +83,7 @@ Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile Fir
 | **lg**      | < 1024px       |
 | **xl**      | < 1280px       |
 
-## Typography
+## **Typography**
 The aspects we can modify in terms of the typography on Tailwind are the size, boldness and italicness of the font, as well as the decoration, line-height, letter-spacing, and etc. in terms of the text. For more information consult the next resources from the documentation:
 
 - [Font-family](https://tailwindcss.com/docs/font-family)
@@ -95,7 +95,7 @@ The aspects we can modify in terms of the typography on Tailwind are the size, b
 - [Text-align](https://tailwindcss.com/docs/text-align)
 - [Text-decoration](https://tailwindcss.com/docs/text-decoration)
 
-## Resources 📚
+## **Resources** 📚
 - [Curso de Tailwind CSS](https://platzi.com/cursos/tailwind-css/)
 - [Configuration](https://tailwindcss.com/docs/configuration)
 - [Theme](https://tailwindcss.com/docs/theme)
