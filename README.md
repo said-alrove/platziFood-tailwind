@@ -11,7 +11,7 @@ This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Ta
 
 ![](https://static.platzi.com/media/courses/Opengraph-tailwind-css_2.png)
 
-### **Installation and workflow**
+## **Installation and workflow**
 * First, a few things you'll need to install in your computer to get up-and-running with the project are the **tailwind**, **autoprefixer**, and **postcss-cli** dependencies by running the **npm install** command (this will install the dependencies locally in the project).
 
 ```
@@ -57,7 +57,7 @@ This is a project coming from the **Víctor Yoalli Domínguez**'s course of **Ta
 
 - Next you'll have to run the script by using the **npm run build** command. This will create you the whole Tailwind stylesheet for your project.
 
-### **Personalization and configuration**
+## **Personalization and configuration**
 If you'd like to personalize your Tailwind stylesheet, then, you have to make tweaks to the **module.exports** array on the **tailwind.config.js** file, I could write an extense guide about how to use this part but tbh is better redacted on the Tailwind's official documentation. Anyways I'll explain a few basic and important concepts.
 
 * If you'd like to overwrite the defualt configuration, then you have to add the keys for the main agroupation of values such as **colors** (here you can change the default palette or add yours), **screens** (for media-queries breakpoints), and **spacing** (for everything related to sizes). Or, otherwise, you can edit the values from the called **corePlugins** (the agroupation of utilities that are related because of their properties, such as **borderRadius**). Or both.
@@ -72,7 +72,7 @@ If you'd like to personalize your Tailwind stylesheet, then, you have to make tw
     npx tailwindcss init tailwind.config.full.js --full
 ```
 
-### **Responsive Design, Mobile First and Utility First**
+## **Responsive Design, Mobile First and Utility First**
 Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile First** and **Utility First**, therefore stuff like breakpoints are available with a certain facility in order to give to developers a better experience while coding. Some breakpoints available as default on Tailwind are: 
 
 | Breakpoint  | Viewport Width |
@@ -82,6 +82,18 @@ Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile Fir
 | **md**      | < 768px        |
 | **lg**      | < 1024px       |
 | **xl**      | < 1280px       |
+
+## Typography
+The aspects we can modify in terms of the typography on Tailwind are the size, boldness and italicness of the font, as well as the decoration, line-height, letter-spacing, and etc. in terms of the text. For more information consult the next resources from the documentation:
+
+- [Font-family](https://tailwindcss.com/docs/font-family)
+- [Font-size](https://tailwindcss.com/docs/font-size)
+- [Font-style](https://tailwindcss.com/docs/font-style)
+- [Font-weight](https://tailwindcss.com/docs/font-weight)
+- [Letter-spacing](https://tailwindcss.com/docs/letter-spacing)
+- [Line-height](https://tailwindcss.com/docs/line-height)
+- [Text-align](https://tailwindcss.com/docs/text-align)
+- [Text-decoration](https://tailwindcss.com/docs/text-decoration)
 
 ## Resources 📚
 - [Curso de Tailwind CSS](https://platzi.com/cursos/tailwind-css/)
