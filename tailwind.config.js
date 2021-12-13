@@ -1,9 +1,10 @@
+// TailwindCss v2.2.3 
 // *NOTE:* You can reference any value from the default theme if needed
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: media, // or 'media' or 'class'
   theme: {
     screens: {
       'sm': '480px',
