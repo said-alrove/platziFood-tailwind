@@ -5,7 +5,8 @@
   "main": "postcss.config.js",
   "scripts": {
     "build": "postcss styles/app.css --config postcss.config.js -o public/styles/app.css",
-    "dev": "live-server public postcss styles/app.css --config postcss.config.js -o public/styles/app.css -w" 
+    "build:watch": "postcss styles/app.css --config postcss.config.js -o public/styles/app.css -w",
+    "dev": "tailwindcss -i styles/app.css -c update.config.js --postcss postcss.config.js -o public/styles/app.css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
   "dependencies": {
     "autoprefixer": "^10.4.0",
     "postcss-cli": "^9.0.2",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.12",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6"
   }
 }
