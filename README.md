@@ -73,7 +73,7 @@ If you'd like to personalize your Tailwind stylesheet, then, you have to make tw
 ```
 
 ## **Responsive Design, Mobile First and Utility First**
-Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile First** and **Utility First**, therefore stuff like breakpoints are available with a certain facility in order to give to developers a better experience while coding. Some breakpoints available as default on Tailwind are: 
+Tailwind has three concepts in its banner, **Responsive Design**, **Mobile First** and **Utility First**, therefore stuff like breakpoints are available with a certain facility in order to give to developers a better experience while coding. Some breakpoints available as default on Tailwind are: 
 
 | Breakpoint  | Viewport Width |
 | ----------- | -------------- |
@@ -84,16 +84,24 @@ Tailwind has three concepts in its banner, **Responsiv  e Design**, **Mobile Fir
 | **xl**      | < 1280px       |
 
 ## **Typography**
-The aspects we can modify in terms of the typography on Tailwind are the size, boldness and italicness of the font, as well as the decoration, line-height, letter-spacing, and etc. in terms of the text. For more information consult the next resources from the documentation:
+Coming soon...
 
-- [Font-family](https://tailwindcss.com/docs/font-family)
-- [Font-size](https://tailwindcss.com/docs/font-size)
-- [Font-style](https://tailwindcss.com/docs/font-style)
-- [Font-weight](https://tailwindcss.com/docs/font-weight)
-- [Letter-spacing](https://tailwindcss.com/docs/letter-spacing)
-- [Line-height](https://tailwindcss.com/docs/line-height)
-- [Text-align](https://tailwindcss.com/docs/text-align)
-- [Text-decoration](https://tailwindcss.com/docs/text-decoration)
+## **TailwindCss v3.0.0**
+Tailwind has been recently updated, the new changes has not affected everything above, but something we should care of is the **dark-mode** feature which has suffered some changes.
+* Before the update you had the option of allowing the dark-mode feature by using the **media** or **class** options where media meant the use of the **prefers-color-scheme** Css-feature and class meant the use of a class injected by Js to the Html root, but you also had the possibility of setting this features to false and avoid the use of the **dark-mode** feature on your markup. 
+After the update, you're TailwindCss configuration is set to use by default the **dark-mode** feature with the **media** options, now you cannot set to false the feature, instead, you only can choose between both options mentioned before.
+* As part of the new update you now have the option of using the nesting feature natively from Tailwind just by importing the module with the **require()** function.
+
+```
+    module.exports = {
+        plugins: [
+            require("tailwindcss/nesting")
+        ]
+    }
+```
+
+> **Note:** it's important to mention that I could not use this feature when trying to use the plugins option as an object instead of an array, I'm almost sure that's because I'm missing something because of my poor knowledge about Javascript, by now I'm not using the feature natively from Tailwind and instead I installed the PostCss plugin related to it.
+
 
 ## **Resources** 📚
 - [Curso de Tailwind CSS](https://platzi.com/cursos/tailwind-css/)
