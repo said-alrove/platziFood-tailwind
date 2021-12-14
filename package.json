@@ -5,8 +5,8 @@
   "main": "postcss.config.js",
   "scripts": {
     "build": "postcss styles/app.css --config postcss.config.js -o public/styles/app.css",
-    "build:watch": "postcss styles/app.css --config postcss.config.js -o public/styles/app.css -w",
-    "dev": "tailwindcss -i styles/app.css -c update.config.js --postcss postcss.config.js -o public/styles/app.css"
+    "dev": "tailwindcss -i styles/app.css -c update.config.js --postcss postcss.config.js -o public/styles/app.css",
+    "watch": "tailwindcss -i styles/app.css -c update.config.js --postcss postcss.config.js -o public/styles/app.css -w"
   },
   "repository": {
     "type": "git",
