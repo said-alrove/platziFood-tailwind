@@ -1,4 +1,4 @@
-const nodeEnv = "dev";
+const nodeEnv = "prod";
 module.exports = {
   plugins: {
     "postcss-import": {},
@@ -8,7 +8,7 @@ module.exports = {
       config: './update.config.js' 
     },
     "autoprefixer": {},
-    "cssnano": nodeEnv === 'production' ? {
+    "cssnano": nodeEnv === 'prod' ? {
         preset: [
           require('cssnano-preset-default'), 
           { discardComments: true }
